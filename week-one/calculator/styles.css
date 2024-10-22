@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: montserrat;
+
+}
+body {
+    min-height: 100hv;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+div{
+    text-align: center;
+}
+div h2{
+    letter-spacing: 3px ;
+    text-transfrom: uppercase ;
+}
+div hr{
+    margin: 14px 0;
+}
+div input [type=number] {
+    margin: 8px 0;
+    padding: 8px;
+    width: 100%
+}
