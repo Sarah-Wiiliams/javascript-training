@@ -56,23 +56,73 @@
 // console.log('Hey', firstName, lastName);
 
 
-function calculator(num1, num2, operation) {
-    if (operation == "+") {
-        console.log(num1 + num2);
-    }else if (operation =='-') {
-        console.log(num1 - num2);
-    }else if (operation == '*') {
-        console.log(num1 * num2);
-    }else if (opration == '/') {
-        console.log(num1 * num2);
+// function calculator(num1, num2, operation) {
+//     if (operation == "+") {
+//         console.log(num1 + num2);
+//     }else if (operation =='-') {
+//         console.log(num1 - num2);
+//     }else if (operation == '*') {
+//         console.log(num1 * num2);
+//     }else if (opration == '/') {
+//         console.log(num1 * num2);
+//     }
+// }
+
+
+let isFemale = true;
+let student_grade = 95;
+
+
+
+if(isFemale == true) {
+    console.log('A female')
+} else {
+    console.log('A male')
+}
+
+
+// <50, failed, ==50, average, >50 && <=70, Very good, >70 excellent
+
+
+if(student_grade < 50) {
+    console.log('failed')
+} else if (student_grade == 50) {
+    console.log('average')
+
+} else if (student_grade > 50 && student_grade <= 70) {
+    console.log('Very good')
+} else if (student_grade > 70) {
+    console.log('Excellent')
+}
+
+
+// % is the modulus operator
+function isEvenorOdd(num) {
+    if ((num % 2) == 0) {
+        console.log(`${num} is even`)
+    }else {
+        console.log(`${num} is odd`)
     }
 }
 
 
+isEvenorOdd(80000)
+
+
+
+console.log('Hello Sarah')
 
 
 
 
+// const myPet = 'armadillo';
+// console.log(`I own a pet ${myPet}.`);
+
+// console.log('I own a pet:', myPet, ',');
+
+
+// Learning Proud Goal Challenge Courage
+// Success Capable
 
 
 
