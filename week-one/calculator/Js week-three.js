@@ -15,6 +15,7 @@
 // return "MTN"
 
 // if (phoneNum.startswith(("655", "656", "657", "658", "659", "69"))) {
+[]
 //     return "ORANGE"
 // }
 
